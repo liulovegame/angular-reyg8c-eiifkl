@@ -22,7 +22,7 @@ p {
   line-height: 1;
   background: #e8e2ff;
   border-radius: 16px;
-  vertical-align: 0.3em;
+  vertical-align: 0.25em;
 }
 .question-title .choice-tag2 {
   display: inline-block;
@@ -35,6 +35,19 @@ p {
   background: #e8e2ff;
   border-radius: 16px;
   vertical-align: 0.2em;
+}
+.question-title .choice-tag3 {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 8px;
+  font-weight: normal;
+  padding: 4px 8px;
+  color: #6741ef;
+  font-size: 10px;
+  line-height: 21px;
+  background: #e8e2ff;
+  border-radius: 16px;
+  vertical-align: 0.25em;
 }
 
 /*
