@@ -31,7 +31,7 @@ p {
   font-weight: 400;
   color: #6741ef;
   font-size: 10px;
-  line-height: 1.5;
+  line-height: 18px;
   background: #e8e2ff;
   border-radius: 16px;
   vertical-align: 0.2em;
@@ -43,8 +43,8 @@ p {
   font-weight: normal;
   padding: 0 8px;
   color: #6741ef;
-  font-size: 10px;
-  line-height: 19px;
+  font-size: 12px;
+  line-height: 20px;
   background: #e8e2ff;
   border-radius: 16px;
   vertical-align: 0.25em;
