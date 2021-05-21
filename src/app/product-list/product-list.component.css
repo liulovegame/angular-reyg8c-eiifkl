@@ -18,11 +18,11 @@ p {
   font-weight: normal;
   padding: 4px 8px;
   color: #6741ef;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1;
   background: #e8e2ff;
   border-radius: 16px;
-  vertical-align: 0.2em;
+  vertical-align: 0.3em;
 }
 .question-title .choice-tag2 {
   display: inline-block;
