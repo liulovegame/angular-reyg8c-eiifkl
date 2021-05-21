@@ -47,7 +47,8 @@ p {
   line-height: 20px;
   background: #e8e2ff;
   border-radius: 16px;
-  vertical-align: 0.25em;
+  transform: scale(0.8);
+  transform-origin: 0 0;
 }
 
 /*
