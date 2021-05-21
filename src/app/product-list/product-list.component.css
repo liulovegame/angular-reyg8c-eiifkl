@@ -1,5 +1,27 @@
-div, p {
+div,
+p {
   color: red;
+  font-family: -apple-system, PingFang SC, BlinkMacSystemFont, Helvetica Neue,
+    Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei,
+    Arial, sans-serif;
+}
+.question-title {
+  line-height: 24px;
+  font-weight: bold;
+  color: #31285d;
+}
+.question-title .choice-tag {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 8px;
+  font-weight: normal;
+  padding: 4px 8px;
+  color: #6741ef;
+  font-size: 10px;
+  line-height: 1;
+  background: #e8e2ff;
+  border-radius: 16px;
+  vertical-align: 0.2em;
 }
 
 /*
