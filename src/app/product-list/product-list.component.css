@@ -39,12 +39,12 @@ p {
 .question-title .choice-tag3 {
   display: inline-block;
   box-sizing: border-box;
-  margin-right: 8px;
+  margin-right: 14px;
   font-weight: normal;
-  padding: 0 8px;
+  padding: 0 12px;
   color: #6741ef;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 24px;
   background: #e8e2ff;
   border-radius: 16px;
   transform: scale(0.8);
