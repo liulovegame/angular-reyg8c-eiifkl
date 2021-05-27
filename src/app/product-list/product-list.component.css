@@ -23,6 +23,7 @@ p {
   line-height: 20px;
   background: #e8e2ff;
   border-radius: 16px;
+  vertical-align: 0.15em;
 }
 .question-title .choice-tag2 {
   display: inline-block;
