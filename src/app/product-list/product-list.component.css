@@ -52,6 +52,20 @@ p {
   transform-origin: 0 0;
 }
 
+.btn-primary {
+  height: 6.93333vw;
+  padding: 1.6vw 4.26667vw;
+  color: #fff;
+  font-size: 2.66667vw;
+  line-height: 1;
+  background: #6741ef;
+  border: 0;
+  border-radius: 1.6vw;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+}
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
