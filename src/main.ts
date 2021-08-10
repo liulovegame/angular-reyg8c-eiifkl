@@ -8,8 +8,8 @@ if (environment.production) {
   enableProdMode();
 }
 
+window.open('https://www.baidu.com');
 platformBrowserDynamic().bootstrapModule(AppModule);
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
