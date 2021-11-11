@@ -3,6 +3,7 @@ import {
   ComponentFactoryResolver,
   ViewChild,
   ViewContainerRef,
+  ComponentRef,
 } from '@angular/core';
 
 import { products } from '../products';
@@ -15,7 +16,7 @@ import { DynamicTestComponent } from '../dynamic-test/dynamic-test.component';
 })
 export class ProductListComponent {
   products = products;
-
+  componentRef: ComponentRef<DynamicTestComponent>;
   constructor(private cfr: ComponentFactoryResolver) {}
 
   @ViewChild('dlContainer', { read: ViewContainerRef })
@@ -31,7 +32,11 @@ export class ProductListComponent {
 
   addComponent() {
     const com = this.cfr.resolveComponentFactory(DynamicTestComponent);
-    this.container.createComponent(com);
+    this.componentRef = this.container.createComponent(com);
+    this.componentRef.instance.type = 'etqwtwt';
+    this.componentRef.instance.output.subscribe((msg: string) =>
+      console.log(msg)
+    );
   }
 }
 
